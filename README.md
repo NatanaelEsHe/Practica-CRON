@@ -14,7 +14,7 @@ A una máquina virtual de linux añadirle dos discos duros:
 Para particionar un disco nuevo y formatearlos se utiliza fdisk.
 Modificar el fichero fstab, añadiendo todas las particiones. Las del disco A se montarán manualmente. Las del disco B se montarán automáticamente al arrancar.
 
-![Ficehro FSTAB](fstab.PNG)  
+![Ficehro FSTAB](fstab.png)  
 
 # CRON
 Cada hora en punto ejecutamos la sincronización horaria y mandamos la salida a /dev/null/
